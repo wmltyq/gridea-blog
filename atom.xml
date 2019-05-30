@@ -1,139 +1,24 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
-
-<title>OnePlus 7系列Pop-up成都站 | LoveTech</title>
-<meta name="description" content="Talk is cheap, show me the code.">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://wmltyq.github.io/gridea-blog/favicon.ico?v=1559210233010">
-<link rel="stylesheet" href="https://wmltyq.github.io/gridea-blog/styles/main.css">
-
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140402507-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-140402507-1');
-</script>
-
-
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://wmltyq.github.io/gridea-blog">
-        <img src="https://wmltyq.github.io/gridea-blog/images/avatar.png?v=1559210233010" class="site-logo">
-        <h1 class="site-title">LoveTech</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/gridea-blog" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/gridea-blog/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/gridea-blog/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/gridea-blog/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-          <a class="social-link" href="https://github.com/wmltyq" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-          <a class="social-link" href="https://twitter.com/wmltyq" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-        
-      
-        
-          <a class="social-link" href="https://weibo.com/wmltyq" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
-      
-        
-          <a class="social-link" href="https://www.zhihu.com/people/wmltyq/activities" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
-        
-      
-        
-          <a class="social-link" href="https://www.facebook.com/wmltyq" target="_blank">
-            <i class="fab fa-facebook"></i>
-          </a>
-        
-      
-    </div>
-    <div class="site-description">
-      Talk is cheap, show me the code.
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">OnePlus 7系列Pop-up成都站</h2>
-            <div class="post-date">2019-05-18</div>
-            
-              <div class="feature-container" style="background-image: url('https://wmltyq.github.io/gridea-blog/post-images/oneplus-7-xi-lie-pop-up-cheng-du-zhan.jpg')">
-              </div>
-            
-            <div class="post-content">
-              <p>怀着激动而平静的心情去参加OnePlus 7系列Pop-up成都站的活动。我不是一加的粉丝，也没有用过一加的手机，我只是一个狂热的数码爱好者。</p>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wmltyq.github.io/gridea-blog</id>
+    <title>LoveTech</title>
+    <updated>2019-05-30T09:57:44.048Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wmltyq.github.io/gridea-blog"/>
+    <link rel="self" href="https://wmltyq.github.io/gridea-blog/atom.xml"/>
+    <subtitle>Talk is cheap, show me the code.</subtitle>
+    <logo>https://wmltyq.github.io/gridea-blog/images/avatar.png</logo>
+    <icon>https://wmltyq.github.io/gridea-blog/favicon.ico</icon>
+    <rights>All rights reserved 2019, LoveTech</rights>
+    <entry>
+        <title type="html"><![CDATA[OnePlus 7系列Pop-up成都站]]></title>
+        <id>https://wmltyq.github.io/gridea-blog/post/oneplus-7-xi-lie-pop-up-cheng-du-zhan</id>
+        <link href="https://wmltyq.github.io/gridea-blog/post/oneplus-7-xi-lie-pop-up-cheng-du-zhan">
+        </link>
+        <updated>2019-05-18T09:55:06.000Z</updated>
+        <summary type="html"><![CDATA[<p>怀着激动而平静的心情去参加OnePlus 7系列Pop-up成都站的活动。我不是一加的粉丝，也没有用过一加的手机，我只是一个狂热的数码爱好者。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>怀着激动而平静的心情去参加OnePlus 7系列Pop-up成都站的活动。我不是一加的粉丝，也没有用过一加的手机，我只是一个狂热的数码爱好者。</p>
 <!-- more -->
 <p>一开始我还担心极度没有方向感的我能不能顺利找到活动现场，但是一到万象城四楼黑压压一群人提醒我明显是多虑了。因为场地小人又多，让我这个没见过什么世面的家伙慌乱了一阵。即使在工作人员的引导下成功在线上排队并拿到了排队号码，混乱的现场让我依然不知道接下来做什么。耳边只清晰又模糊地听到工作人员对我说“您391号，估计要等到下午三点多，要不您去一楼等候片刻，那里的咖啡厅提供了一杯免费咖啡”。当时两点还没到，我茫然地在门口转悠了一下就走开了。</p>
 <p>还有一个多小时怎么办呢？虽然我不知道工作人员说的咖啡厅在哪，但是四目望了一下，刚好四楼有很多数码专卖店可以打发一下时间。</p>
@@ -144,84 +29,38 @@
 <p>就这么的转悠来转悠去，眼巴巴地看着购买区的人们痛快地购买，体验区的悠悠地把玩。也正是看着有序实则杂乱的活动现场，不知不觉我怎么就进了体验区。费了九牛二虎之力进去，体验了几分钟就出来了，并不是人多有工组人员催促，而是雷同的外观设计以及标准化了的安卓操作体验让我略感失望。当然我也承认这么草草地体验确实忽略很多那些吸引忠实粉丝的细节。也正是因为细节不可能在短时间内捕获，一度看着那些痛快剁手的粉丝我也有种剁手的冲动，好借此可以弥补没能好好体验一加产品细节的遗憾。然而不管是2999的OnePlus 7还是3999的OnePlus 7 Pro都让我有所冷静，毕竟世界这么大，同样的售价可能会有更好的产品。同时也是因为不熟悉一加的产品，让我不敢确定即使是在非常理性的情况下做出的购买决定而事后不后悔。</p>
 <p>在做出“上手很惊艳，其实也普通”的结论后，我就离开了。即使在用了MIX2这么久之后，它一开始带给我的震撼依然历久弥新。而现在可能是因为各家厂商的产品愈加趋同的原因，我鲜有这样持久的震撼了。但是在准备离开的时候刚好路过那家可凭排队号码免费领取一杯咖啡的咖啡店，并且偶遇两位刚刚购买了OnePlus 7 Pro的一加铁粉后，我深感<strong>每个产品都能给一部分人带来喜悦，只是他们一开始进入的圈子不一样而导致他们关注的对象不同罢了。</strong></p>
 <p><strong>如果你只是自己圈子里的人，你就不一定理解别的圈子里的人，而你是一个有圈子但是不设边界的人，你就很可能对别的圈子的人感同身受。乱花渐欲迷人眼，找到自己的圈子不容易，且圈且珍惜。</strong></p>
-
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://wmltyq.github.io/gridea-blog/tag/Cewi9el9z" class="tag">
-                    感悟
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://wmltyq.github.io/gridea-blog/post/hello-gridea">
-                  <h3 class="post-title">
-                    Hello Gridea
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-  
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: 'aa7938d46cadca7d7098',
-        clientSecret: '8b24fee948c5bdd5dfdd8113f34defbec890a47e',
-        repo: 'gridea-blog',
-        owner: 'wmltyq',
-        admin: ['wmltyq'],
-        id: location.pathname,      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
-
-
-
-
-  </body>
-</html>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://wmltyq.github.io/gridea-blog/post/hello-gridea</id>
+        <link href="https://wmltyq.github.io/gridea-blog/post/hello-gridea">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="http://hvenotes.fehey.com/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
