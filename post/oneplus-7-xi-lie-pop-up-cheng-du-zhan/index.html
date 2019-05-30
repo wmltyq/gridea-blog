@@ -9,9 +9,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://lovetech.coding.me//favicon.ico?v=1558333718323">
-<link rel="stylesheet" href="https://lovetech.coding.me//styles/main.css">
+<link rel="shortcut icon" href="https://wmltyq.github.io/gridea-blog/favicon.ico?v=1559209229082">
+<link rel="stylesheet" href="https://wmltyq.github.io/gridea-blog/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -37,8 +43,8 @@
       <div class="sidebar" :class="{ 'full-height': menuVisible }">
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
-      <a class="site-title-container" href="https://lovetech.coding.me/">
-        <img src="https://lovetech.coding.me//images/avatar.png?v=1558333718323" class="site-logo">
+      <a class="site-title-container" href="https://wmltyq.github.io/gridea-blog">
+        <img src="https://wmltyq.github.io/gridea-blog/images/avatar.png?v=1559209229082" class="site-logo">
         <h1 class="site-title">LoveTech</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -48,25 +54,25 @@
     <div>
       
         
-          <a href="/" class="site-nav">
+          <a href="/gridea-blog" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/gridea-blog/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/gridea-blog/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="site-nav">
+          <a href="/gridea-blog/post/about" class="site-nav">
             关于
           </a>
         
@@ -123,7 +129,7 @@
             <h2 class="post-title">OnePlus 7系列Pop-up成都站</h2>
             <div class="post-date">2019-05-18</div>
             
-              <div class="feature-container" style="background-image: url('https://lovetech.coding.me//post-images/oneplus-7-xi-lie-pop-up-cheng-du-zhan.jpg')">
+              <div class="feature-container" style="background-image: url('https://wmltyq.github.io/gridea-blog/post-images/oneplus-7-xi-lie-pop-up-cheng-du-zhan.jpg')">
               </div>
             
             <div class="post-content">
@@ -143,7 +149,7 @@
             
               <div class="tag-container">
                 
-                  <a href="https://lovetech.coding.me//tag/Cewi9el9z" class="tag">
+                  <a href="https://wmltyq.github.io/gridea-blog/tag/Cewi9el9z" class="tag">
                     感悟
                   </a>
                 
@@ -152,7 +158,7 @@
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://lovetech.coding.me//post/hello-gridea">
+                <a href="https://wmltyq.github.io/gridea-blog/post/hello-gridea">
                   <h3 class="post-title">
                     Hello Gridea
                   </h3>
@@ -160,6 +166,12 @@
               </div>
             
 
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
             
 
           </div>
@@ -184,6 +196,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'aa7938d46cadca7d7098',
+        clientSecret: '8b24fee948c5bdd5dfdd8113f34defbec890a47e',
+        repo: 'gridea-blog',
+        owner: 'wmltyq',
+        admin: ['wmltyq'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
